@@ -1,0 +1,16 @@
+.modscroll
+{
+	max-height: calc(39vh);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.modscroll::-webkit-scrollbar
+{
+    width: 10px;
+}
+.modscroll::-webkit-scrollbar-thumb
+{
+    width: 5px;
+    background: rgba(0,0,0,.1);
+
+}
